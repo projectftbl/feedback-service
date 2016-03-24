@@ -1,0 +1,34 @@
+{
+  "FACEBOOK": {
+    "SCOPE": [ "email", "public_profile", "user_friends" ]
+  , "FIELDS": [ "id", "email", "name", "picture.width(300)", "gender", "link", "first_name", "last_name", "location" ]
+  }
+
+, "HTTP": {
+    "CORS": { "Access-Control-Allow-Credentials": true, "origin": "*" }
+  }
+
+, "TOKEN": {
+    "SECRET": "ftbl"
+  }
+
+, "CACHE": {
+    "TTL": 120
+  }
+
+, "LOGGING": {
+    "LEVEL": "verbose"
+  }
+
+, "MANDRILL": {
+    "ID": ""
+  , "SUBACCOUNT": ""
+  }
+
+, "TWILIO": {
+    "ID": ""
+  , "TOKEN": ""
+  , "NUMBER": ""
+  }
+
+}
