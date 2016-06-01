@@ -1,6 +1,6 @@
 {
   "name": "@ftbl/feedback-service",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Content feedback services",
   "main": "node index",
   "scripts": {
